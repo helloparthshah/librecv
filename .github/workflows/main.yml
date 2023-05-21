@@ -25,7 +25,6 @@ jobs:
           # The root LaTeX file to be compiled
           root_file: resume.tex
           # The working directory for the latex compiler to be invoked
-          working_directory: ./
           args: -xelatex -latexoption=-file-line-error -latexoption=-interaction=nonstopmode
 
       - uses: actions/upload-artifact@v3
